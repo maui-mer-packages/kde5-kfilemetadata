@@ -91,18 +91,18 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc COPYING.LGPL*
-%{_kde4_libdir}/libkfilemetadata.so.*
-%{_kde4_plugindir}/kfilemetadata_*.so
-%{_kde4_datadir}/kservices5
-%{_kde4_datadir}/kservicetypes5/
+%{_kde5_libdir}/libkfilemetadata.so.*
+%{_kde5_plugindir}/kfilemetadata_*.so
+%{_kde5_datadir}/kservices5
+%{_kde5_datadir}/kservicetypes5/
 # >> files
 # << files
 
 
 %files devel
 %defattr(-,root,root,-)
-%{_kde4_libdir}/libkfilemetadata.so
-%{_kde4_libdir}/cmake/KFileMetaData
+%{_kde5_libdir}/libkfilemetadata.so
+%{_kde5_libdir}/cmake/KFileMetaData
 %{_includedir}/kfilemetadata
 # >> files devel
 # << files devel

@@ -55,11 +55,11 @@ RequiresPostUn:
 
 Files:
     - "%doc COPYING.LGPL*"
-    #- "#%{_kde4_libdir}/libKF5FileMetaData.so.*"
-    - "%{_kde4_libdir}/libkfilemetadata.so.*"
-    - "%{_kde4_plugindir}/kfilemetadata_*.so"
-    - "%{_kde4_datadir}/kservices5"
-    - "%{_kde4_datadir}/kservicetypes5/"
+    #- "#%{_kde5_libdir}/libKF5FileMetaData.so.*"
+    - "%{_kde5_libdir}/libkfilemetadata.so.*"
+    - "%{_kde5_plugindir}/kfilemetadata_*.so"
+    - "%{_kde5_datadir}/kservices5"
+    - "%{_kde5_datadir}/kservicetypes5/"
 
 SubPackages:
     - Name: devel
@@ -73,6 +73,6 @@ SubPackages:
           - kf5-kservice-devel
           - kf5-karchive-devel
       Files:
-          - "%{_kde4_libdir}/libkfilemetadata.so"
-          - "%{_kde4_libdir}/cmake/KFileMetaData"
+          - "%{_kde5_libdir}/libkfilemetadata.so"
+          - "%{_kde5_libdir}/cmake/KFileMetaData"
           - "%{_includedir}/kfilemetadata"
