@@ -27,7 +27,6 @@ BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Test)
 BuildRequires:  pkgconfig(Qt5PrintSupport)
-BuildRequires:  pkgconfig(exiv2)
 BuildRequires:  pkgconfig(taglib)
 BuildRequires:  kde5-rpm-macros
 BuildRequires:  extra-cmake-modules
@@ -36,7 +35,6 @@ BuildRequires:  kf5-umbrella
 BuildRequires:  kf5-ki18n-devel
 BuildRequires:  kf5-kservice-devel
 BuildRequires:  kf5-karchive-devel
-BuildRequires:  ebook-tools-devel
 
 
 %description

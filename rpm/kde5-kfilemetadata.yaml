@@ -29,7 +29,8 @@ PkgBR:
     - kf5-ki18n-devel
     - kf5-kservice-devel
     - kf5-karchive-devel
-    - ebook-tools-devel
+    # TODO: n/a
+    #- ebook-tools-devel
 PkgConfigBR:
     - Qt5Core
     - Qt5DBus
@@ -40,9 +41,9 @@ PkgConfigBR:
     - Qt5Concurrent
     - Qt5Test
     - Qt5PrintSupport
-    - exiv2
     - taglib
     # TODO: n/a
+    #- exiv2
     #- poppler-qt5
 Requires:
     - kde5-filesystem
