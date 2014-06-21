@@ -84,7 +84,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc COPYING.LGPL*
 %{_kf5_libdir}/libkfilemetadata.so.*
-%{_kf5_plugindir}/kfilemetadata_*.so
+%{_kf5_qtplugindir}/kfilemetadata_*.so
 %{_kf5_datadir}/kservices5
 %{_kf5_datadir}/kservicetypes5/
 # >> files
