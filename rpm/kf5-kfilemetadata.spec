@@ -92,8 +92,8 @@ rm -rf %{buildroot}
 
 %files devel
 %defattr(-,root,root,-)
-%{_kf5_libdir}/libkfilemetadata.so
+%{_kf5_libdir}/libKF5FileMetaData.so
 %{_kf5_libdir}/cmake/KF5FileMetaData
-%{_includedir}/KF5/KFileMetadata
+%{_includedir}/KF5/KFileMetaData
 # >> files devel
 # << files devel
