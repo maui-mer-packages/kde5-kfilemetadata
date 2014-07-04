@@ -83,7 +83,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc COPYING.LGPL*
-%{_kf5_libdir}/libkfilemetadata.so.*
+%{_kf5_libdir}/libKF5FileMetaData.so.*
 %{_kf5_qtplugindir}/kfilemetadata_*.so
 %{_kf5_datadir}/kservices5
 %{_kf5_datadir}/kservicetypes5/
@@ -93,7 +93,7 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 %{_kf5_libdir}/libkfilemetadata.so
-%{_kf5_libdir}/cmake/KFileMetaData
-%{_includedir}/kfilemetadata
+%{_kf5_libdir}/cmake/KF5FileMetaData
+%{_includedir}/KF5/KFileMetadata
 # >> files devel
 # << files devel
