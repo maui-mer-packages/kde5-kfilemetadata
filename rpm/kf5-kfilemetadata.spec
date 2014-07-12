@@ -9,7 +9,7 @@ Name:       kf5-kfilemetadata
 # << macros
 
 Summary:    Library for extracting file metadata
-Version:    4.98.0
+Version:    5.0.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
