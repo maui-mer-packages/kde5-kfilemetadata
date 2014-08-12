@@ -1,4 +1,4 @@
-Name         : kf5-kfilemetadata
+Name         : kfilemetadata
 Version      : 5.0.0
 Release      : 1
 Group        : System/Base
@@ -25,10 +25,9 @@ PkgBR:
     - kf5-rpm-macros
     - extra-cmake-modules
     - qt5-tools
-    - kf5-umbrella
-    - kf5-ki18n-devel
-    - kf5-kservice-devel
-    - kf5-karchive-devel
+    - ki18n-devel
+    - kservice-devel
+    - karchive-devel
     # TODO: n/a
     #- ebook-tools-devel
 PkgConfigBR:
@@ -56,9 +55,9 @@ RequiresPostUn:
 Files:
     - "%doc COPYING.LGPL*"
     - "%{_kf5_libdir}/libKF5FileMetaData.so.*"
-    - "%{_kf5_qtplugindir}/kfilemetadata_*.so"
-    - "%{_kf5_datadir}/kservices5"
-    - "%{_kf5_datadir}/kservicetypes5/"
+    - "%{_kf5_plugindir}/*"
+    - "%{_kf5_servicesdir}/*"
+    - "%{_kf5_servicetypesdir}/*"
 
 SubPackages:
     - Name: devel
@@ -68,10 +67,10 @@ SubPackages:
         The %{name}-devel package contains the files necessary to develop applications
         that use %{name}.
       Requires:
-          - kf5-ki18n-devel
-          - kf5-kservice-devel
-          - kf5-karchive-devel
+          - ki18n-devel
+          - kservice-devel
+          - karchive-devel
       Files:
           - "%{_kf5_libdir}/libKF5FileMetaData.so"
-          - "%{_kf5_libdir}/cmake/KF5FileMetaData"
-          - "%{_includedir}/KF5/KFileMetaData"
+          - "%{_kf5_cmakedir}/KF5FileMetaData"
+          - "%{_kf5_includedir}/*"
