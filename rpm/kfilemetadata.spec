@@ -34,7 +34,6 @@ BuildRequires:  kf5-rpm-macros
 BuildRequires:  extra-cmake-modules
 BuildRequires:  qt5-tools
 BuildRequires:  ki18n-devel
-BuildRequires:  kservice-devel
 BuildRequires:  karchive-devel
 
 %description
@@ -46,7 +45,6 @@ Summary:    Development files for %{name}
 Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
 Requires:   ki18n-devel
-Requires:   kservice-devel
 Requires:   karchive-devel
 
 %description devel
@@ -84,8 +82,6 @@ rm -rf %{buildroot}
 %doc COPYING.LGPL*
 %{_kf5_libdir}/libKF5FileMetaData.so.*
 %{_kf5_plugindir}/*
-%{_kf5_servicesdir}/*
-%{_kf5_servicetypesdir}/*
 # >> files
 # << files
 
