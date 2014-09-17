@@ -8,8 +8,14 @@ Name:       kfilemetadata
 # >> macros
 # << macros
 
+# >> bcond_with
+# << bcond_with
+
+# >> bcond_without
+# << bcond_without
+
 Summary:    Library for extracting file metadata
-Version:    5.0.0
+Version:    5.0.95
 Release:    1
 Group:      System/Base
 License:    GPLv2+
