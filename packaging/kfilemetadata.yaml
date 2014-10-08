@@ -7,7 +7,6 @@ Summary      : Library for extracting file metadata
 Description  : |
   Library for extracting file metadata
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
