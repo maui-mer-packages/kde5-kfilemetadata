@@ -9,7 +9,7 @@ Name:       kfilemetadata
 # << macros
 
 Summary:    Library for extracting file metadata
-Version:    5.0.95
+Version:    5.1.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
